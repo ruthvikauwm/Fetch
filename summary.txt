@@ -1,0 +1,25 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+The code is written in Java and the following libraries are used:
+java.io.BufferedReader and java.io.FileReader for reading files.
+java.time.Instant for working with dates and times.
+java.util.List, java.util.Map, java.util.HashMap, java.util.Comparator, and java.util.ArrayList for data manipulation.
+Java is a popular and widely-used programming language, especially in enterprise and web development, and provides good support for file input/output and data manipulation. 
+The libraries used are standard libraries included in the Java SDK and are well-suited for the tasks required in this exercise.
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+
+The code reads the transactions from a CSV file, spends points according to the rules specified in the prompt, and returns the remaining balances for each payer.
+The code is easy to read and understand, with clear variable names and comments.
+The code uses standard libraries, which are widely used and well-documented.
+The code handles errors and invalid input, such as incorrect command-line arguments and malformed CSV lines.
+
+Disadvantages:
+
+The code assumes that the CSV file has the correct format and does not perform additional validation on the input.
+The code does not account for edge cases, such as when there are not enough points to spend or when all transactions are from a single payer.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+One of my most enjoyable coding projects during my time at JP Morgan was building “Client Coverage”, a Kafka-based microservice that updates the client data in real-time asynchronously. From start to finish, I was responsible for the entire application development process, including designing and deploying the final product. The biggest challenge I faced was using a firm-specific framework that had limited documentation, which required me to think critically about the development process and seek help from the framework's top internal engineers. Despite these obstacles, I was able to successfully incorporate the framework into our project and deliver it on schedule, thanks to my extra effort in learning and understanding it. This project also pushed me out of my comfort zone by requiring me to learn and apply new technologies, such as Kafka. Working with Java, which is a language I love for its straightforward syntax, made coding a pleasure. I wrote the code by myself and the knowledge I gained while researching was invaluable. Overall, this project was my favorite and taught me a lot, giving me the confidence to handle any challenge.
