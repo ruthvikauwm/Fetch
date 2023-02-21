@@ -9,6 +9,8 @@ When a user spends points, they don't know or care which payer the points come f
 ● We want the oldest points to be spent first (oldest based on transaction timestamp, not the order they’re received)
 ● We want no payer's points to go negative.
 
+write a program that reads from a CSV file called transactions.csv - https://fetch-hiring.s3.amazonaws.com/transactions.csv)
+
 Code is expected to
 1. Read the transactions from a CSV file.
 2. Spend points based on the argument using the rules above.
